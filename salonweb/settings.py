@@ -161,3 +161,8 @@ LOGOUT_REDIRECT_URL = '/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'login'
 
+# Seguridad HTTPS
+CSRF_TRUSTED_ORIGINS = [
+    'https://byheilynaguilar.com',
+    'https://www.byheilynaguilar.com',
+]
